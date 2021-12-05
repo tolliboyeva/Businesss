@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>All Products - RedStore</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css">
+</head>
+<body>
+  
+    <div class="container">
+        <div class="navbar">
+            <div class="logo">
+                <img src="img/logo.png" width="125px">
+            </div>
+            <nav>
+                <ul id="MenuItems">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="products.html">Products</a></li>
+                    <li><a href="about.html">Thoghouts</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="account.html">Account</a></li>
+                </ul>
+            </nav>
+            <a href="cart.html"><img src="img/cart.png" width="30px" height="30px"></a>
+            <img src="img/menu.png" class="menu-icon" onclick="menutoggle()">
+        </div>
+    </div>
+
+<!--- Thoghouts---->
+<div class="testimonial">
+    <div class="small-container">
+        <div class="row">
+            <div class="col-3">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae asperiores temporibus eveniet vel dolor, in numquam repellendus dolores. Est, praesentium!</p>
+                <div class="rating">
+                </div>
+                <img src="img/person1.jfif">
+                <h3>Sean Parker</h3>
+            </div>
+            <div class="col-3">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse similique ea adipisci aliquid aperiam at possimus fugit quibusdam delectus natus!</p>
+                <div class="rating">
+                </div>
+                <img src="img/person2.jfif">
+                <h3>Mrs Brown</h3>
+            </div>
+            <div class="col-3">
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatum accusantium id officia expedita consectetur necessitatibus officiis voluptates! Quidem, tempore non!</p>
+                <div class="rating">
+                </div>
+                <img src="img/person3.jfif">
+                <h3>Mrs Sara</h3>
+            </div>
+            <div class="col-3">
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatum accusantium id officia expedita consectetur necessitatibus officiis voluptates! Quidem, tempore non!</p>
+                <div class="rating">
+                </div>
+                <img src="img/person4.jfif">
+                <h3>Mrs Whitfield</h3>
+            </div>
+            <div class="col-3">
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatum accusantium id officia expedita consectetur necessitatibus officiis voluptates! Quidem, tempore non!</p>
+                <div class="rating">
+                </div>
+                <img src="img/person5.jfif">
+                <h3>Mr Jack</h3>
+            </div>
+            <div class="col-3">
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatum accusantium id officia expedita consectetur necessitatibus officiis voluptates! Quidem, tempore non!</p>
+                <div class="rating">
+                </div>
+                <img src="img/person6.jfif">
+                <h3>Mr John</h3>
+            </div>
+            <div class="col-3">
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatum accusantium id officia expedita consectetur necessitatibus officiis voluptates! Quidem, tempore non!</p>
+                <div class="rating">
+                </div>
+                <img src="img/person7.jfif">
+                <h3>Mr Leo</h3>
+            </div>
+            <div class="col-3">
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatum accusantium id officia expedita consectetur necessitatibus officiis voluptates! Quidem, tempore non!</p>
+                <div class="rating">
+                </div>
+                <img src="img/person8.jfif">
+                <h3>Mr Andy</h3>
+            </div>
+            <div class="col-3">
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatum accusantium id officia expedita consectetur necessitatibus officiis voluptates! Quidem, tempore non!</p>
+                <div class="rating">
+                </div>
+                <img src="img/person9.jfif">
+                <h3>Mr Carlo</h3>
+            </div>
+        </div>
+    </div>
+</div>
+<a href="" class="btn">See More &#8594;</a>
+
+
+
+
+
+<!----- footer ----->
+
+    <div class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="footer-col-1">
+                    <h3>Download Our App</h3>
+                    <p>Download App for Android and ios mobile phone.</p>
+                    <div class="app-logo">
+                        <img src="img/play-store.png">
+                        <img src="img/app-store.png">
+                    </div>
+                </div>
+                <div class="footer-col-2">
+                    <img src="img/logo-white.png">
+                    <p>Our Purpose Is To Sustainably Make the Pleasure and Benefits of Sports Accessible to the Many. </p>
+                </div>
+                <div class="footer-col-3">
+                    <h3>Useful Links</h3>
+                    <ul>
+                        <li>Coupons</li>
+                        <li>Blog Post</li>
+                        <li>Return Policy</li>
+                        <li>Join Affiliate</li>
+                    </ul>
+                </div>
+                <div class="footer-col-4">
+                    <h3>Follow us</h3>
+                    <ul>
+                        <li>Facebook</li>
+                        <li>Twitter</li>
+                        <li>Instagram</li>
+                        <li>YouTube</li>
+                    </ul>
+                </div>
+            </div>
+            <hr>
+            <p class="copyright">Copyright 2020 - Easy Tutorials</p>
+        </div>
+    </div>
+    <!--- js for toggle menu---->
+    <script>
+        var MenuItems = document.getElementById("MenuItems");
+
+        MenuItems.style.maxHeight = "0px";
+
+        function menutoggle(){
+            if(MenuItems.style.maxHeight == "0px")
+                {
+                    MenuItems.style.maxHeight = "200px";
+                }
+            else
+                {
+                    MenuItems.style.maxHeight = "0px";
+                }
+        }
+    </script>
+
+   
+
+</body>
+</html>
